@@ -1,0 +1,42 @@
+.checkBox{
+    border-radius: 25px;
+}
+.TodoItem{
+    background: #838282;
+    margin-block-start: 5px;
+    margin-inline: 25em;
+    border-radius: 20px;
+}
+.TodoItem:hover{
+    background-color: #5DADE2
+}
+.Icon-check{
+    padding: 5px;
+}
+.TodoItem-p{
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.delete{
+    float: right;
+}
+.Icon-delete{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.checkBox--active{
+    background-color:  green;
+    border-radius: 25px;
+}
+.Icon-delete:hover {
+    background-color: red;
+    color: white;
+}
+
+.TodoItem-p--completed {
+    text-decoration: line-through black;
+}

@@ -1,0 +1,15 @@
+.counterContainer{
+    border: 5px;
+    border-style: solid;
+    border-radius: 30px;
+    margin-left: 25em;
+    margin-right: 25em;
+    margin-top: 2em;
+    border-color: white;
+}
+.TodoCounter{
+    text-align: center;
+    border: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}

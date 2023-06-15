@@ -1,0 +1,53 @@
+.inputContainer{
+    margin-left: 25em;
+    margin-top: 25px;
+    width: 280px;
+    position: relative;
+}
+.label{
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    transition: all 0.2s;
+    padding: 0 2px;
+    z-index: 1;
+    color: #b3b3b3;
+}
+.textInput{
+    padding: 0.8rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    background: #272530;
+    border-radius: 15px;
+    font-size: 18px;
+    outline: none;
+    transition: all .3s;
+    color: #fff;
+}
+.label::before{
+    content: "";
+    height: 5px;
+    background-color: #272530;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+.textInput:focus{
+    border: 2px solid white;
+}
+.textInput:focus .filled{
+    top: -10px;
+    color: white;
+    font-size: 14px;
+}
+.textInput::placeholder{
+    font-size: 16px;
+    transition: all .3s;
+}
+.textInput:focus::placeholder{
+    opacity: 1;
+    animation-delay: 0.2s;
+}
