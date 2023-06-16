@@ -7,6 +7,9 @@
     margin-inline: 25em;
     border-radius: 20px;
 }
+.checkBox:hover{
+    background-color: green;
+}
 .TodoItem:hover{
     background-color: #5DADE2
 }
@@ -76,5 +79,8 @@
     .Icon-delete:hover {
         background-color: red;
         color: white;
+    }
+    .checkBox:hover{
+        background-color: green;
     }
   }

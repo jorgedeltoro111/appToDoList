@@ -80,6 +80,11 @@
     text-decoration: none;
     transition: 0.5s;
 }
+.autor:hover{
+    letter-spacing: 0.25em;
+    color: #444;
+    box-shadow: 0 0 35px #444;
+}
 @media screen and (max-width: 500px) {
     /* Estilos para pantallas con un ancho máximo de 768px */
     .containerButton{
@@ -95,5 +100,10 @@
         font-size: 0.8em;
         margin-right: 15em;
         margin-left: -8em;
+    }
+    .autor:hover{
+        letter-spacing: 0.25em;
+        color: #444;
+        box-shadow: 0 0 35px #444;
     }
   }
