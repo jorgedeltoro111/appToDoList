@@ -84,15 +84,16 @@
     /* Estilos para pantallas con un ancho máximo de 768px */
     .containerButton{
         margin-top: -25px;
-        margin-left: 1em;
+        margin-left: 8em;
     }
     .autor{
         margin-top: 35px;
-        margin-left: -1em;
+        margin-left: 7em;
         font-size: 0.8em;
     }
     .parrafo{
         font-size: 0.8em;
-        margin-right: 18em;
+        margin-right: 15em;
+        margin-left: -8em;
     }
   }

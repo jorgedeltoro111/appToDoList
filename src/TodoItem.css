@@ -45,7 +45,7 @@
     .TodoItem{
         background: #838282;
         margin-block-start: 5px;
-        margin-inline: 7em;
+        margin-inline: 6em;
         border-radius: 20px;
     }
     .TodoItem:hover{
