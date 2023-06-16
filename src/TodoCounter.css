@@ -13,3 +13,23 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
+@media screen and (max-width: 500px) {
+    /* Estilos para pantallas con un ancho máximo de 768px */
+    .counterContainer{
+        border: 5px;
+        border-style: solid;
+        border-radius: 30px;
+        margin-left: 0em;
+        margin-right: 15em;
+        margin-top: 2em;
+        border-color: white;
+    }
+    .TodoCounter{
+        text-align: center;
+        border: 2px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+  }
+  
+  

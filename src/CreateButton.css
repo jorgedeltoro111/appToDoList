@@ -80,3 +80,19 @@
     text-decoration: none;
     transition: 0.5s;
 }
+@media screen and (max-width: 500px) {
+    /* Estilos para pantallas con un ancho máximo de 768px */
+    .containerButton{
+        margin-top: -25px;
+        margin-left: 1em;
+    }
+    .autor{
+        margin-top: 35px;
+        margin-left: -1em;
+        font-size: 0.8em;
+    }
+    .parrafo{
+        font-size: 0.8em;
+        margin-right: 18em;
+    }
+  }

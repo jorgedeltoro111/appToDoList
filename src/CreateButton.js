@@ -15,7 +15,9 @@ function CreateTodoButton(props){
     return (
         <div className='containerButton'> {/**Asi creamos un evento */}
             <button className='button' onClick={() => {createTodo()}}><span>+</span><i></i></button>
-            <p className='autor'>Created and designed by Jorge Enrique Hernández Del Toro, June 15, 2023.</p>
+            <div className='parrafo'>
+                <p className='autor'>Created and designed by Jorge Enrique Hernández Del Toro, June 15, 2023.</p>
+            </div>
         </div>
     );
 }

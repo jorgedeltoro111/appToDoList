@@ -51,3 +51,25 @@
     opacity: 1;
     animation-delay: 0.2s;
 }
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas con un ancho máximo de 768px */
+    .inputContainer{
+        margin-left: 0;
+        margin-top: 25px;
+        width: 280px;
+        position: relative;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Estilos para pantallas con un ancho máximo de 480px */
+    .inputContainer{
+        border: 5px;
+        border-style: solid;
+        border-radius: 30px;
+        margin-left: 0em;
+        margin-top: 2em;
+        width: 8em;
+    }
+  }
+  
