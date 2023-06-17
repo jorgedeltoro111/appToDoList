@@ -45,8 +45,9 @@
     .TodoItem{
         background: #838282;
         margin-block-start: 5px;
-        margin-inline: 6em;
+        margin-inline: 4em;
         border-radius: 20px;
+        margin-top: 1em;
     }
     .TodoItem:hover{
         background-color: #5DADE2
