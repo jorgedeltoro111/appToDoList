@@ -7,9 +7,6 @@
     margin-inline: 25em;
     border-radius: 20px;
 }
-.checkBox:hover{
-    background-color: green;
-}
 .TodoItem:hover{
     background-color: #5DADE2
 }
