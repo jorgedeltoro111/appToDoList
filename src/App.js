@@ -12,15 +12,27 @@ const todos = [];
 
 
 function App() {
+  const saveTodos = (newTodos) => {//funcion para guardar los todos en el localstorage
+    localStorage.setItem('TODOS_V1', JSON.stringify(newTodos));//guardamos los todos en el localstorage
+    setTareas(newTodos);//actualizamos el estado de los todos
+  }
+  const localStorageTodos = localStorage.getItem('TODOS_V1');//obtenemos los todos del localstorage
+  let parsedTodos;
+  if(localStorageTodos){//si hay algo en el localstorage
+    parsedTodos = JSON.parse(localStorageTodos);//obtenemos los todos del localstorage
+  }else{
+    localStorage.setItem('TODOS_V1', JSON.stringify([]));//si no hay nada en el localstorage, le asignamos un arreglo vacio
+    parsedTodos = todos;//si no hay nada en el localstorage, le asignamos un arreglo vacio
+  }
+  
   //Maquetacion de mi aplicacion
   const [searchState, setSearchState] = React.useState('');//manejo de estados
-  const [tareas, setTareas] = React.useState(todos);
+  const [tareas, setTareas] = React.useState(parsedTodos);//manejo de estados
   const completedTodos = tareas.filter(todo => !!todo.completed).length;//calculamos cuantos todos tenemos completos
   const totalTodos =  tareas.length;//total de todos
   const filteredTodos = tareas.filter((todo) =>
     todo.text.toLowerCase().includes(searchState.toLowerCase())
   );
-  
   return (
     <div className="App">{/**Esta etiqueta es la contenedora de todos los componentes */}
       <TodoCounter
@@ -40,7 +52,7 @@ function App() {
             completed={todo.completed}
             index={index}
             tareas={tareas}
-            setTareas={setTareas}
+            saveTodos={saveTodos}
           />
         )): 
          tareas.map((todo, index) => {
@@ -53,7 +65,7 @@ function App() {
                 completed={todo.completed}
                 index={index}
                 tareas={tareas}
-                setTareas={setTareas}
+                saveTodos={saveTodos}
               />
             );
           }
@@ -64,8 +76,8 @@ function App() {
 
       </TodoList>
       <CreateTodoButton
-        setTareas={setTareas}
         tareas={tareas}
+        saveTodos={saveTodos}
       />{/**Boton para agrgar nuevos elementos */}
       
     </div>   

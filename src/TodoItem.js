@@ -5,10 +5,10 @@ function TodoItem(props) {
         const newTodos = [...props.tareas];
         if(newTodos[index].completed === false){
             newTodos[index].completed = true;
-            props.setTareas(newTodos);
+            props.saveTodos(newTodos);
         }else{
             newTodos[index].completed = false;
-            props.setTareas(newTodos);
+            props.saveTodos(newTodos);
         }
     }
     return (
@@ -19,7 +19,7 @@ function TodoItem(props) {
                 <span className='Icon Icon-delete' onClick={() => {
                     const newTodos = [...props.tareas];
                     newTodos.splice(props.index, 1);
-                    props.setTareas(newTodos);
+                    props.saveTodos(newTodos);
                 }}>Delete</span>
             </div>
         </li>

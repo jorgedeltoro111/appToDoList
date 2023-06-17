@@ -9,7 +9,7 @@ function CreateTodoButton(props){
             return alert('No task was entered.');
         }else{
             newTodos.push({text: newText, completed: false});
-            props.setTareas(newTodos);
+            props.saveTodos(newTodos);
         }
     }
     return (
