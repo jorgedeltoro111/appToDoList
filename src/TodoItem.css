@@ -6,6 +6,7 @@
     margin-block-start: 5px;
     margin-inline: 25em;
     border-radius: 20px;
+    position: relative;
 }
 .TodoItem:hover{
     background-color: #5DADE2
@@ -20,7 +21,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .delete{
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .Icon-delete{
     color: black;
@@ -48,6 +51,7 @@
         margin-inline: 4em;
         border-radius: 20px;
         margin-top: 1em;
+        position: relative;
     }
     .TodoItem:hover{
         background-color: #5DADE2
@@ -62,7 +66,9 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .delete{
-        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
     .Icon-delete{
         color: black;
