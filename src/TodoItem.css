@@ -19,6 +19,7 @@
     border-radius: 15px;
     padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-break: break-word;
 }
 .delete{
     position: absolute;
