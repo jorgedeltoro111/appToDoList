@@ -18,4 +18,4 @@ function useLocalStorage(itemName, initialValue) {
     return [saveItem, item];
   }
 
-  export {useLocalStorage};
+  export { useLocalStorage };
