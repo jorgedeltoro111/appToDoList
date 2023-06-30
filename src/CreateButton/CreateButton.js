@@ -16,7 +16,7 @@ function CreateTodoButton(props){
         <div className='containerButton'> {/**Asi creamos un evento */}
             <button className='button' onClick={() => {createTodo()}}><span>+</span><i></i></button>
             <div className='parrafo'>
-                <p className='autor'>Created and designed by Jorge Enrique Hernández Del Toro</p>
+                <p className='autor'>Created and designed by Jorge Enrique Hernández Del Toro.</p>
             </div>
         </div>
     );
