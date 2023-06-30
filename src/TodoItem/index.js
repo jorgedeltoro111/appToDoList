@@ -1,5 +1,5 @@
 import React from 'react';
-import "./TodoItem.css";
+import "./index.css";
 function TodoItem(props) {
     const completedTodo = (index) => {
         const newTodos = [...props.tareas];

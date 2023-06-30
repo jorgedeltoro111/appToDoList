@@ -1,5 +1,5 @@
 import React from 'react';//forma correcta de importar react
-import './TodoSearch.css';
+import './index.css';
 
 function TodoSearch({
     searchState,
