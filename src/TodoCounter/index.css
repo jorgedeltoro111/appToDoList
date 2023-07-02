@@ -13,6 +13,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
+.number{
+    color: red;
+}
 @media screen and (max-width: 500px) {
     /* Estilos para pantallas con un ancho máximo de 768px */
     .counterContainer{
@@ -29,6 +32,9 @@
         border: 2px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
+    }
+    .number{
+        color: red;
     }
   }
   

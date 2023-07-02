@@ -7,7 +7,7 @@ function TodoCounter({
 }){
      return (
       <div className='counterContainer'>
-        <h2 className='TodoCounter'>Completed {completedTodos} of {totalTodos} TODO's</h2>
+        <h2 className='TodoCounter'>Completed <span className='number'>{completedTodos}</span> of <span className='number'>{totalTodos}</span> TODO's</h2>
       </div>
      );
 }
