@@ -1,11 +1,11 @@
 import React from 'react';//forma correcta de importar react
 import './index.css';
-
-function TodoSearch({
-    searchState,
-    setSearchState,
-}) {//vamos a recibir el estado y la funcion para actualizar el estado
-
+import { TodoContext } from '../Context/index';//importamos el contexto
+function TodoSearch() {//vamos a recibir el estado y la funcion para actualizar el estado
+    const {
+        searchState,
+        setSearchState
+    } = React.useContext(TodoContext);//desestructuramos el contexto
     return (
     <div className='inputContainer'>
         <input 
