@@ -3,6 +3,10 @@ import { useLocalStorage } from './useLocalStorage';//hook del local storage
 const TodoContext = React.createContext();
 
 function TodoProvider({children}){
+    const [nameHolder, setNameHolder] = React.useState('Task name');
+    const [openModal, setOpenModal] = React.useState(false);
+    const [inputClass, setInputClass] = React.useState('input');
+    const [taskName, setTaskName] = React.useState('');
     const [searchState, setSearchState] = React.useState('');//manejo de estados
     const [saveTodos, tareas] = useLocalStorage('TODOS_V1', []);
     const completedTodos = tareas.filter(todo => !!todo.completed).length;//calculamos cuantos todos tenemos completos
@@ -18,7 +22,15 @@ function TodoProvider({children}){
             setSearchState,
             filteredTodos,
             tareas,
-            saveTodos
+            saveTodos,
+            openModal,
+            setOpenModal,
+            inputClass,
+            setInputClass,
+            taskName,
+            setTaskName,
+            nameHolder,
+            setNameHolder,
         }}>
             {children}
         </TodoContext.Provider>

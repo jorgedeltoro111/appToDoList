@@ -5,12 +5,14 @@ import { TodoSearch } from '../TodoSearch/index';
 import { TodoList } from '../TodoList/index';
 import { CreateTodoButton } from '../CreateButton/index';
 import { TodoContext } from '../Context/index';
+import { Modal } from '../Modal/index';
 function AppUI() {
     const {
       searchState,
       filteredTodos,
       tareas,
-      saveTodos
+      saveTodos,
+      openModal,
     } = React.useContext(TodoContext);
     return(
     <div className="App">{/**Esta etiqueta es la contenedora de todos los componentes */}
@@ -48,6 +50,9 @@ function AppUI() {
       }
       </TodoList>
       <CreateTodoButton/>
+      {openModal && (
+        <Modal/>
+      )}
     </div> 
     );
 }

@@ -1,5 +1,6 @@
 .checkBox{
     border-radius: 25px;
+    cursor: pointer;
 }
 .TodoItem{
     background: #838282;
@@ -31,6 +32,7 @@
     background-color: white;
     border-radius: 20px;
     padding: 5px;
+    cursor: pointer;
 }
 .checkBox--active{
     background-color:  green;
@@ -59,6 +61,7 @@
     }
     .Icon-check{
         padding: 5px;
+        cursor: pointer;
     }
     .TodoItem-p{
         display: inline-block;
@@ -76,10 +79,12 @@
         background-color: white;
         border-radius: 20px;
         padding: 5px;
+        cursor: pointer;
     }
     .checkBox--active{
         background-color:  green;
         border-radius: 25px;
+        cursor: pointer;
     }
     .Icon-delete:hover {
         background-color: red;
