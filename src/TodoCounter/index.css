@@ -1,11 +1,17 @@
 .counterContainer{
-    border: 5px;
-    border-style: solid;
-    border-radius: 30px;
     margin-left: 25em;
     margin-right: 25em;
     margin-top: 2em;
-    border-color: white;
+}
+.bar{
+    background-color: #f5f5f5;
+    height: 1em;
+    margin: 0.5em;
+    width: 21em;
+}
+.bar:hover{
+    font-size: 1.2em;
+    transition: 0.3s;
 }
 .TodoCounter{
     text-align: center;
@@ -14,18 +20,14 @@
     color: white;
 }
 .number{
-    color: red;
+    color: aqua;
 }
 @media screen and (max-width: 500px) {
     /* Estilos para pantallas con un ancho máximo de 768px */
     .counterContainer{
-        border: 5px;
-        border-style: solid;
-        border-radius: 30px;
         margin-left: 6em;
         margin-right: 9em;
         margin-top: 2em;
-        border-color: white;
     }
     .TodoCounter{
         text-align: center;
@@ -34,7 +36,17 @@
         color: white;
     }
     .number{
-        color: red;
+        color: aqua;
+    }
+    .bar{
+        background-color: #f5f5f5;
+        height: 1em;
+        margin: 0.5em;
+        width: 9em;
+    }
+    .bar:hover{
+        font-size: 1.2em;
+        transition: 0.3s;
     }
   }
   
