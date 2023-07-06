@@ -1,7 +1,7 @@
 .inputContainer{
     margin-left: 25em;
     margin-top: 25px;
-    width: 280px;
+    width: 350px;
     position: relative;
 }
 .label{
@@ -72,4 +72,10 @@
         width: 8em;
     }
   }
-  
+  @media screen and (min-width: 1300px){
+    .inputContainer{
+        position: relative;
+        width: 25%;
+        left: 8%;
+    }
+  }
