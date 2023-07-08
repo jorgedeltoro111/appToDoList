@@ -4,9 +4,9 @@ e implementar los conceptos mas importantes del framework, como la comunicación
 componentes, los custom hooks, localstorage, el uso de useContext, la creación de modales, interacciones 
 con el usuario, casos de error y estilos de la aplicación.
 
-![Phone version](mockup/phoneScreen.png=500x1000)
-![Laptop version](mockup/laptopScreen.png=500x1000)
-![PC version](mockup/pcScreen.png=500x1000)
+![Phone version](mockup/phoneScreen.png){width=500 height=1000}
+![Laptop version](mockup/laptopScreen.png){width=500 height=1000}
+![PC version](mockup/pcScreen.png){width=500 height=1000}
 
 ## Available Scripts
 
