@@ -3,13 +3,13 @@ Esta aplicación tiene como objetivo el registro de tareas diarias. Este proyect
 e implementar los conceptos mas importantes del framework, como la comunicación e implementacion de los 
 componentes, los custom hooks, localstorage, el uso de useContext, la creación de modales, interacciones 
 con el usuario, casos de error y estilos de la aplicación.
-
-<img src="mockup/phoneScreen.png" alt="Phone version" width="360" height="640">
 <h2>Versión de celular</h2>
-<img src="mockup/laptopScreen.png" alt="Laptop version" width="341" height="270"> 
+<img src="mockup/phoneScreen.png" alt="Phone version" width="360" height="640">
 <h2>Versión de laptop</h2>
-<img src="mockup/pcScreen.png" alt="PC version" width="683" height="540"> 
+<img src="mockup/laptopScreen.png" alt="Laptop version" width="341" height="270"> 
 <h2>Versión de PC</h2>
+<img src="mockup/pcScreen.png" alt="PC version" width="683" height="540"> 
+
 
 
 ## Available Scripts
