@@ -46,14 +46,12 @@
 .TodoItem-p--completed {
     text-decoration: line-through black;
 }
-@media screen and (max-width: 500px) {
-    /* Estilos para pantallas con un ancho máximo de 768px */
+@media screen and (max-width: 720px) and (max-height: 1280px){
     .TodoItem{
         background: #838282;
         margin-block-start: 5px;
-        margin-inline: 4em;
+        margin-inline: 2em;
         border-radius: 20px;
-        margin-top: 1em;
         position: relative;
     }
     .TodoItem:hover{
@@ -61,13 +59,13 @@
     }
     .Icon-check{
         padding: 5px;
-        cursor: pointer;
     }
     .TodoItem-p{
         display: inline-block;
         border-radius: 15px;
         padding: 5px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        word-break: break-word;
     }
     .delete{
         position: absolute;
@@ -84,10 +82,15 @@
     .checkBox--active{
         background-color:  green;
         border-radius: 25px;
-        cursor: pointer;
     }
     .Icon-delete:hover {
         background-color: red;
         color: white;
     }
-  }
+    
+    .TodoItem-p--completed {
+        text-decoration: line-through black;
+    }
+}
+    
+
