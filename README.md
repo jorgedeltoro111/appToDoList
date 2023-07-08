@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Esta aplicación tiene como objetivo el registro de tareas diarias. Este proyecto tiene la intención 
+de poner en práctica los conocimientos obtenidos con el framework de react.js. 
 ## Available Scripts
 
 In the project directory, you can run:
