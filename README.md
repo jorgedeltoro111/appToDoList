@@ -1,7 +1,8 @@
-# Getting Started with Create React App
-
-Esta aplicación tiene como objetivo el registro de tareas diarias. Este proyecto tiene la intención 
-de poner en práctica los conocimientos obtenidos con el framework de react.js. 
+# Check List
+Esta aplicación tiene como objetivo el registro de tareas diarias. Este proyecto me ayudo a poder entender
+e implementar los conceptos mas importantes del framework, como la comunicación e implementacion de los 
+componentes, los custom hooks, localstorage, el uso de useContext, la creación de modales, interacciones 
+con el usuario, casos de error y estilos de la aplicación. 
 ## Available Scripts
 
 In the project directory, you can run:
