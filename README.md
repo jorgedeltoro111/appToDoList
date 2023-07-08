@@ -2,7 +2,12 @@
 Esta aplicación tiene como objetivo el registro de tareas diarias. Este proyecto me ayudo a poder entender
 e implementar los conceptos mas importantes del framework, como la comunicación e implementacion de los 
 componentes, los custom hooks, localstorage, el uso de useContext, la creación de modales, interacciones 
-con el usuario, casos de error y estilos de la aplicación. 
+con el usuario, casos de error y estilos de la aplicación. \
+
+![Phone version](mockup/phoneScreen.png)
+![Laptop version](mockup/laptopScreen.png)
+![PC version](mockup/pcScreen.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
